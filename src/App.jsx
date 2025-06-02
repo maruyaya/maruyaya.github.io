@@ -1,17 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react'
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
+import Navbar from './components/navbar/navbar'
+import Home from './sections/home/home'
+import Skills from './sections/skills/skills'
+import Socials from './sections/socials/socials'
+import Projects from './sections/projects/projects'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
+    <BrowserRouter>
       <div>
-        <h1>hi</h1>
+        <Routes>
+          {/*Home*/}
+          <Route path= "/" element= {
+            <>
+              <Navbar />
+              <Home />
+              <Projects />
+              <Skills />
+              <Socials />
+            </>
+          }/>
+        </Routes>
       </div>
-    </>
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;

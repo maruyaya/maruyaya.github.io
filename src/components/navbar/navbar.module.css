@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.navlogo {
+    width: 100px;
+}
+.navlinks {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.link {
+    font-family: "Caveat", cursive;
+    color: white;
+    padding: 0 2rem;
+    margin: 0;
+}

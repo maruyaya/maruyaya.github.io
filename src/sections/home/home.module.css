@@ -1,0 +1,6 @@
+.bg {
+    background-image: url('images/tokyotower.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 56vh;
+}

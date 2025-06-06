@@ -1,6 +1,9 @@
+import styles from './home.module.css'
+
 export default function Home() {
     return (
     <div id='Home'> 
+        <div className={styles.bg}></div>
         <h1>A little about me...</h1>
 
         <p>I’m currently a data science major at 

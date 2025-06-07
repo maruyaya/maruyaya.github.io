@@ -4,3 +4,8 @@
     background-position: top;
     height: 56vh;
 }
+
+.header {
+    font-family: 'Times New Roman';
+    color: #424242
+}

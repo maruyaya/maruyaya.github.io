@@ -34,6 +34,17 @@ html {
   transform-origin: center;
 }
 
+.link-colour {
+  display: inline-block;
+  font-family: "Caveat", cursive;
+  font-size: 1.4rem;
+  padding: 0 2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+  color: #424242
+}
+
 .link:hover {
   transform: scale(1.2);
 }

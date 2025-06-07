@@ -5,7 +5,16 @@
     height: 56vh;
 }
 
-.header {
+.home {
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
     font-family: 'Times New Roman';
     color: #424242
 }
+
+
+.bio {
+    font-size: 20px;
+}
+

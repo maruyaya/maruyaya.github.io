@@ -3,8 +3,13 @@ import styles from './home.module.css'
 export default function Home() {
     return (
     <div id='Home'> 
-        <div className={styles.bg}></div>
-        <div className={styles.home}>
+        <div className={styles.titlecontainer}>
+            <div className={styles.bg}></div>
+            <div className={styles.title}>
+                <h1>Hello! I'm Rio</h1>
+            </div>
+        </div>
+        <div className={styles.hometext}>
             <h1>A little about me...</h1>
 
             <p className={styles.bio}>I’m a data science major at 

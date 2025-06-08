@@ -1,11 +1,29 @@
+.titlecontainer {
+    position: relative;
+}
+
 .bg {
     background-image: url('images/tokyotower.jpg');
     background-size: cover;
     background-position: top;
     height: 56vh;
+
 }
 
-.home {
+
+.title {
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    padding-left: 5vh;
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 1.8rem;
+}
+
+.hometext {
+    padding-top: 30px;
     padding-left: 70px;
     padding-right: 70px;
     text-align: center;

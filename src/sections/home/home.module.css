@@ -1,25 +1,44 @@
 .titlecontainer {
-    position: relative;
+    height: 75vh;
 }
 
 .bg {
-    background-image: url('images/tokyotower.jpg');
+    background-image: url('images/tokyotower.png');
     background-size: cover;
     background-position: top;
-    height: 56vh;
+    height: 77vh;
 
 }
 
-
-.title {
+.wrapper {
     position: absolute;
     z-index: 2;
-    top: 30%;
-    padding-left: 5vh;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    top: 20%;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 2.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.dynamictexts {
     font-family: 'Caveat', cursive;
     color: white;
     font-weight: 100;
     font-size: 1.8rem;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
 }
 
 .hometext {
@@ -28,7 +47,7 @@
     padding-right: 70px;
     text-align: center;
     font-family: 'Times New Roman';
-    color: #424242
+    color: #424242;
 }
 
 

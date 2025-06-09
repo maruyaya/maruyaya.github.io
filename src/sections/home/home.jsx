@@ -5,8 +5,14 @@ export default function Home() {
     <div id='Home'> 
         <div className={styles.titlecontainer}>
             <div className={styles.bg}></div>
-            <div className={styles.title}>
-                <h1>Hello! I'm Rio</h1>
+            <div className={styles.wrapper}>
+                <h1 className={styles.title}>Hello! I'm Rio</h1>
+                <ul className={styles.dynamictexts}>
+                    <li><span>Data Enthusiast</span></li>
+                    <li><span>Boba Enjoyer</span></li>
+                    <li><span>Lifelong Learner</span></li>
+                    <li><span>Cat lover</span></li>
+                </ul>
             </div>
         </div>
         <div className={styles.hometext}>

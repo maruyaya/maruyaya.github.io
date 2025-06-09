@@ -49,3 +49,7 @@ html {
 .link:hover {
   transform: scale(1.2);
 }
+
+.link-colour:hover {
+  transform: scale(1.2);
+}

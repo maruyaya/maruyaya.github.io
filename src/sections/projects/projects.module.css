@@ -6,10 +6,13 @@
     color: #424242;
 }
 
-.projectlist {
+.projectcontainer {
     display: flex;
     list-style: none;
     align-items: center;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .project {

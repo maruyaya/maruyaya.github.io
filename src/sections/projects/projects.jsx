@@ -1,5 +1,4 @@
 import styles from './projects.module.css'
-import { Link } from 'react-scroll'
 
 export default function Projects() {
 
@@ -8,6 +7,12 @@ export default function Projects() {
             name: "Find Your Matcha",
             link: "https://github.com/justinnebaltazar/find-your-matcha",
             image: "public/images/project_image/findyourmatcha.png"
+        },
+
+        {
+            name: "Webscraping Tutorial Article",
+            link: "public/project_links/WebscrapingTutorial.pdf",
+            image: "public/images/project_image/webscrapetutorial.png"
         }
     ];
 
@@ -15,8 +20,8 @@ export default function Projects() {
     return (
     <div id='Projects'>
         <h1 className={styles.title}>Projects</h1>
-        <div className={styles.projectlist}>
-            <ul>
+        <div className={styles.projectcontainer}>
+            <div>
                 {projects.map((project, index) => (
                     <li key={index} className={styles.project}>
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
@@ -30,7 +35,7 @@ export default function Projects() {
                         <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectName}>{project.name}</a>
                     </li>
                 ))}
-            </ul>
+            </div>
         </div>
 
     </div>

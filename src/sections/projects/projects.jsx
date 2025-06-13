@@ -35,7 +35,8 @@ export default function Projects() {
     return (
     <div id='Projects'>
         <h1 className={styles.title}>Projects</h1>
-        <div className={styles.projectcontainer}>
+        <div className={styles.projectcontainerwrapper}>
+            <div className={styles.projectcontainer}>
                 {projects.map((project, index) => (
                         <div key={index} className={styles.project}>
                             <a href={project.link} target="_blank" rel="noopener noreferrer">
@@ -50,7 +51,9 @@ export default function Projects() {
                             <p className={styles.description}>{project.description}</p>
                         </div>
                 ))}
+            </div>
         </div>
+        
 
     </div>
     )

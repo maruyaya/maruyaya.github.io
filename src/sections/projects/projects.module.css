@@ -6,17 +6,15 @@
     color: #424242;
 }
 
-.projectcontainerwrapper {
-    overflow-x: auto;
-}
 .projectcontainer {
     display: flex;
-    flex-wrap: nowrap;
-    padding: 20px;
-    margin: 0;
+    align-items: center;
+    overflow-x: auto;
+    padding: 0;
+    margin: 0 auto; /*makes the width shrink and also center aligned*/
     gap: 10px;
+    width: 90%;
     justify-content: center;
-    min-width: max-content;
 }
 
 .project {

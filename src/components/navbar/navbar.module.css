@@ -9,8 +9,22 @@ html {
     align-items: center;
     position: fixed;
     top: 0;
-    width: 95%;
+    width: 100%;
     z-index: 2;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.navbarscrolled {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #424242b3; 
+    transition: background-color 0.3s ease;
 }
 
 .navlogo {
@@ -29,10 +43,10 @@ html {
   font-family: "Caveat", cursive;
   font-size: 1.4rem;
   color: white;
-  padding: 0 2rem;
   cursor: pointer;
   transition: transform 0.3s ease;
   transform-origin: center;
+  padding: 0 2rem;
 }
 
 .link-colour {
@@ -43,7 +57,6 @@ html {
   cursor: pointer;
   transition: transform 0.3s ease;
   transform-origin: center;
-  color: #424242
 }
 
 .link:hover {

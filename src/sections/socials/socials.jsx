@@ -5,7 +5,7 @@ export default function Socials() {
     const socials = [
         {
             name: "email",
-            link: "mailtp:rma140@sfu.ca",
+            link: "mailto:rma140@sfu.ca",
             image: "public/socials_images/mail.png"
         },
 

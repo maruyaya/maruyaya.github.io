@@ -36,7 +36,8 @@ const skills = [
         image: "public/skills_images/github.png"
     }
 
-]
+];
+
 export default function Skills() {
     return (
     <div id='Skills'>

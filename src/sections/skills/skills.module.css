@@ -5,3 +5,25 @@
     font-family: 'Times New Roman';
     color: #424242;
 }
+
+.imagecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0;
+    justify-content: center;
+    gap: 15px;
+}
+
+.image {
+    width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+    align-items: center;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+.image:hover {
+    transform: scale(1.2);
+}

@@ -33,16 +33,32 @@
     font-family: 'Caveat', cursive;
     color: white;
     font-weight: 100;
-    font-size: 1.8rem;
-    list-style-type: none;
+    font-size: 30px;
     text-align: center;
     margin: 0;
     padding: 0;
-    padding-top: 30px;
+    top: 75px;
+    height: 2.5em;
+    position: relative;
+    overflow: hidden;
+}
+
+.textwrapper {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+}
+
+.text {
+    height: 2.5em;
+    line-height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hometext {
-    padding-top: 30px;
+    padding-top: 60px;
     padding-left: 70px;
     padding-right: 70px;
     text-align: center;

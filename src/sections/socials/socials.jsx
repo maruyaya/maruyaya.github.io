@@ -1,15 +1,39 @@
+import styles from "./socials.module.css"
+
 export default function Socials() {
+
+    const socials = [
+        {
+            name: "email",
+            link: "mailto:rma140@sfu.ca",
+            image: "public/socials_images/mail.png"
+        },
+
+        {
+            name: "linkedin",
+            link: "https://www.linkedin.com/in/rio-maruyama/",
+            image: "public/socials_images/linkedin.png"
+        },
+
+        {
+            name: "instagram",
+            link: "https://www.instagram.com/mysoneiji/",
+            image: "public/socials_images/instagram.png"
+        }
+    ];
+
+
     return (
     <div id='Socials'>
-        <h1>this is Socials</h1>
-        <p>I’m currently a data science major at 
-            Simon Fraser University eager to gain more experience 
-            as a data analyst, and future data scientist. 
-            My goal is to be able to help others with the power of data! 
-            During my free time, you can find me getting hotpot with friends 
-            (Big Way and Pot Empire are my second home) or struggling to 
-            speak Chinese.
-        </p>
+        <h1 className={styles.title}>Socials</h1>
+        <p className={styles.text}>I'm always open to connect and make new friends! Let's chat {":)"}</p>
+        <div className={styles.socialscontainer}>
+            {socials.map((social, index) => (
+                <a key= {index} className={styles.link} href={social.link}  target="_blank" rel="noopener noreferrer">
+                    <img src={social.image} alt={social.name} className={styles.image}></img>
+                </a>
+            ))}
+        </div>
     </div>
     )
 }

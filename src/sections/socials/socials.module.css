@@ -1,0 +1,28 @@
+.title {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman';
+    color: #424242;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman';
+    color: #424242;
+    padding: 20px;
+}
+
+.socialscontainer {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+}
+
+.image {
+    width: 70px;
+
+}

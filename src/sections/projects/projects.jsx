@@ -5,6 +5,7 @@ export default function Projects() {
     const projects = [
         {
             name: "Find Your Matcha",
+            alt: "Find Your Matcha website homepage image",
             link: "https://github.com/justinnebaltazar/find-your-matcha",
             image: "public/project_images/findyourmatcha.png",
             description: `Created a Matcha reviewing platform for UBC's CMD-F hackathon.
@@ -16,6 +17,7 @@ export default function Projects() {
 
         {
             name: "Webscraping Tutorial Article",
+            alt: "Webscraping Tutorial Article image",
             link: "public/project_links/WebscrapingTutorial.pdf",
             image: "public/project_images/webscrapetutorial.png",
             description: `For my STAT 260 final project, we had to make a 
@@ -26,6 +28,7 @@ export default function Projects() {
 
         {
             name: "DSSS x SFU AIESEC's Business Hackathon",
+            alt: "Business Hackathon introduction slide image",
             link: "public/project_links/GlobalyticsSlide.pdf",
             image: "public/project_images/Globalytics.png",
             description: `The Data Science Student Society and SFU AIESEC 
@@ -48,7 +51,7 @@ export default function Projects() {
                                 <div className={styles.imageContainer}> 
                                     <img 
                                     src = {project.image} 
-                                    alt={project.name} 
+                                    alt={project.alt} 
                                     className={styles.projectImage}/>
                                 </div>
                             </a>

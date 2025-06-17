@@ -7,7 +7,11 @@ export default function Projects() {
             name: "Find Your Matcha",
             link: "https://github.com/justinnebaltazar/find-your-matcha",
             image: "public/project_images/findyourmatcha.png",
-            description: `Created a Matcha reviewing platform for UBC's CMD-F hackathon.`
+            description: `Created a Matcha reviewing platform for UBC's CMD-F hackathon.
+            My team and I used React and I was in charge of
+            the UI/UX design. While google and yelp offers cafe suggestions, they rarely help users find quality matcha.
+            Our goal was to create a website that helps to build a community for matcha lovers 
+            where they can review and share their thoughts on the different matcha offerings across the city.`
         },
 
         {
@@ -16,10 +20,11 @@ export default function Projects() {
             image: "public/project_images/webscrapetutorial.png",
             description: `For my STAT 260 final project, we had to make a 
                             webscraping tutorial for people with minimal technical knowledge.
-                            `
+                            I used R markdown to make it easier to integrate code directly within explanatory text, making
+                            the content both accessible and easy to follow.`
         },
 
-                {
+        {
             name: "DSSS x SFU AIESEC's Business Hackathon",
             link: "public/project_links/GlobalyticsSlide.pdf",
             image: "public/project_images/Globalytics.png",

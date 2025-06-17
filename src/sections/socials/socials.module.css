@@ -24,5 +24,10 @@
 
 .image {
     width: 70px;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
 
+.image:hover {
+    transform: scale(1.2);
 }

@@ -4,19 +4,19 @@ export default function Socials() {
 
     const socials = [
         {
-            name: "email",
+            name: "email icon",
             link: "mailto:rma140@sfu.ca",
             image: "public/socials_images/mail.png"
         },
 
         {
-            name: "linkedin",
+            name: "linkedin icon",
             link: "https://www.linkedin.com/in/rio-maruyama/",
             image: "public/socials_images/linkedin.png"
         },
 
         {
-            name: "instagram",
+            name: "instagram icon",
             link: "https://www.instagram.com/mysoneiji/",
             image: "public/socials_images/instagram.png"
         }
@@ -29,7 +29,7 @@ export default function Socials() {
         <p className={styles.text}>I'm always open to connect and make new friends! Let's chat {":)"}</p>
         <div className={styles.socialscontainer}>
             {socials.map((social, index) => (
-                <a key= {index} className={styles.link} href={social.link}  target="_blank" rel="noopener noreferrer">
+                <a key= {index} href={social.link}  target="_blank" rel="noopener noreferrer">
                     <img src={social.image} alt={social.name} className={styles.image}></img>
                 </a>
             ))}

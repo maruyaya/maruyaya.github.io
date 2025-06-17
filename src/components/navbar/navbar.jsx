@@ -23,7 +23,7 @@ export default function Navbar() {
     return (
         <div className= {color ? styles['navbarscrolled'] : styles.navbar}>
             <div> 
-                <img src= 'public\images\logo.png' alt= 'logo' className={styles.navlogo}/> 
+                <img src= '/images/logo.png' alt= 'logo' className={styles.navlogo}/> 
             </div>
             <ul className ={styles.navlinks}>
                 <li><Link to='Home' offset= {-62} className={styles.link}>Home</Link></li>

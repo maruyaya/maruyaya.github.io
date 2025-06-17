@@ -49,9 +49,14 @@ export default function Home() {
                 My goal is to be able to help others with the power of data! 
                 During my free time, you can find me getting hotpot with friends 
                 (Big Way and Pot Empire are my second home) or daydreaming about my 
-                next big trip! I love to learn and believe growth doesn't stop 
-                after school! Right now, I'm learning Chinese and trying
-                to build a stronger undestanding of the investing world. 
+                next big trip! 
+                <br/><br/>
+                I love to learn and believe growth doesn't stop 
+                after school. While I have many side hobbies like journalling and
+                making keychains, my main focus right now is to learn Chinese and to try
+                to build a stronger understanding of investing and expanding my financial literacy. 
+                My portfolio is a way to showcase my personality along with my academic and personal projects.
+                Feel free to explore some of my projects! 
             </p>
         </div>
     </div>

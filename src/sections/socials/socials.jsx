@@ -18,7 +18,7 @@ export default function Socials() {
         {
             name: "instagram icon",
             link: "https://www.instagram.com/mysoneiji/",
-            image: "/socials_images/instagram.png"
+
         }
     ];
 

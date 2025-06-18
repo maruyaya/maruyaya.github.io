@@ -6,27 +6,20 @@ export default function Socials() {
         {
             name: "email icon",
             link: "mailto:rma140@sfu.ca",
-            image: "public/socials_images/mail.png"
+            image: "/socials_images/mail.png"
         },
 
         {
             name: "linkedin icon",
             link: "https://www.linkedin.com/in/rio-maruyama/",
-            image: "public/socials_images/linkedin.png"
+            image: "/socials_images/linkedin.png"
         },
 
         {
             name: "instagram icon",
             link: "https://www.instagram.com/mysoneiji/",
-            image: "public/socials_images/instagram.png"
-        },
 
-        {
-            name: "github icon",
-            link: "https://github.com/maruyaya",
-            image: "public/socials_images/github.png"
         }
-
     ];
 
 

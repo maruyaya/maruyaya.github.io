@@ -3,7 +3,7 @@
 }
 
 .bg {
-    background-image: url('images/tokyotower.png');
+    background-image: url('/images/tokyotower.png');
     background-size: cover;
     background-position: top;
     height: 77vh;
@@ -24,7 +24,7 @@
     font-family: 'Caveat', cursive;
     color: white;
     font-weight: 100;
-    font-size: 2.8rem;
+    font-size: 60px;
     margin: 0;
     padding: 0;
 }
@@ -37,7 +37,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    top: 75px;
+    top: 15px;
     height: 2.5em;
     position: relative;
     overflow: hidden;
@@ -53,15 +53,13 @@
     height: 2.5em;
     line-height: 2.5em;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 .hometext {
     padding-top: 60px;
-    padding-left: 70px;
-    padding-right: 70px;
-    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
     font-family: 'Times New Roman';
     color: #424242;
 }
@@ -69,5 +67,9 @@
 
 .bio {
     font-size: 20px;
+    text-align: center;
 }
 
+.title2 {
+    text-align: center;
+}

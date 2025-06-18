@@ -3,37 +3,37 @@ import styles from './skills.module.css'
 const skills = [
     {
         skill: "R code",
-        image: "public/skills_images/R.png"
+        image: "/skills_images/R.png"
     },
     
     {
         skill: "sql",
-        image: "public/skills_images/sql.png"
+        image: "/skills_images/sql.png"
     },
 
     {
         skill: "react.js",
-        image: "public/skills_images/react.png"
+        image: "/skills_images/react.png"
     },
 
     {
         skill: "python",
-        image: "public/skills_images/python.png"
+        image: "/skills_images/python.png"
     },
 
     {
         skill: "figma",
-        image: "public/skills_images/figma.png"
+        image: "/skills_images/figma.png"
     },
 
     {
         skill: "slack",
-        image: "public/skills_images/slack.png"
+        image: "/skills_images/slack.png"
     },
 
     {
         skill: "github",
-        image: "public/skills_images/github.png"
+        image: "/skills_images/github.png"
     }
 
 ];

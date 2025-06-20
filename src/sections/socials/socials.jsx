@@ -19,6 +19,12 @@ export default function Socials() {
             name: "instagram icon",
             link: "https://www.instagram.com/mysoneiji/",
             image: "/socials_images/instagram.png"
+        },
+
+        {
+            name: "github icon",
+            link: "https://github.com/maruyaya/",
+            image: "/socials_images/github.png"
         }
     ];
 

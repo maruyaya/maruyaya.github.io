@@ -47,16 +47,20 @@ export default function Projects() {
             <div className={styles.projectcontainer}>
                 {projects.map((project, index) => (
                         <div key={index} className={styles.project}>
-                            <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                <div className={styles.imageContainer}> 
-                                    <img 
-                                    src = {project.image} 
-                                    alt={project.alt} 
-                                    className={styles.projectImage}/>
-                                </div>
-                            </a>
-                            <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectName}>{project.name}</a>
-                            <p className={styles.description}>{project.description}</p>
+                            <div className={styles.left}>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectName}>{project.name}</a>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                    <div className={styles.imageContainer}> 
+                                        <img 
+                                        src = {project.image} 
+                                        alt={project.alt} 
+                                        className={styles.projectImage}/>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className={styles.right}>
+                                <p className={styles.description}>{project.description}</p>
+                            </div>
                         </div>
                 ))}
             </div>

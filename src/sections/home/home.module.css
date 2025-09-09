@@ -68,6 +68,7 @@
 .bio {
     font-size: clamp(5px, 2vw, 20px);
     text-align: left;
+    color: #536672;
 }
 
 .biobody {

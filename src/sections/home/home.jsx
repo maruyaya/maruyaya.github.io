@@ -1,6 +1,6 @@
 import styles from './home.module.css'
 import { useState, useEffect } from 'react'
-
+import biopic from '../../../public/images/biopic.png'
 export default function Home() {
     const [words] = useState(["Data Enthusiast", "Boba Enjoyer", "Lifelong Learner", "Cat Lover","Data Enthusiast", "Boba Enjoyer", "Lifelong Learner", "Cat Lover"])
     const [index, setIndex] = useState(0);
@@ -42,22 +42,27 @@ export default function Home() {
         </div>
         <div className={styles.hometext}>
             <h1 className={styles.title2}>A little about me...</h1>
-
-            <p className={styles.bio}>I’m a data science major at 
-                Simon Fraser University eager to gain more experience 
-                as a data analyst, and future data scientist. 
-                My goal is to be able to help others with the power of data! 
-                During my free time, you can find me getting hotpot with friends 
-                (Big Way and Pot Empire are my second home) or daydreaming about my 
-                next big trip! 
-                <br/><br/>
-                I love to learn and believe growth doesn't stop 
-                after school. While I have many side hobbies like journalling and
-                making keychains, my main focus right now is to learn Chinese and to try
-                to build a stronger understanding of investing and expanding my financial literacy. 
-                My portfolio is a way to showcase my personality along with my academic and personal projects.
-                Feel free to explore some of my projects! 
-            </p>
+            
+            <div className={styles.biobody}>
+                <p className={styles.bio}>I’m a data science major at 
+                    Simon Fraser University eager to gain more experience 
+                    as a data analyst, and future data scientist. 
+                    My goal is to be able to help others with the power of data! 
+                    During my free time, you can find me getting hotpot with friends 
+                    (Big Way and Pot Empire are my second home) or daydreaming about my 
+                    next big trip! 
+                    <br/><br/>
+                    I love to learn and believe growth doesn't stop 
+                    after school. While I have many side hobbies like journalling and
+                    making keychains, my main focus right now is to learn Chinese and to try
+                    to build a stronger understanding of investing and expanding my financial literacy. 
+                    My portfolio is a way to showcase my personality along with my academic and personal projects.
+                    Feel free to explore some of my projects! 
+                </p>
+                <div className={styles.biopicContainer}>
+                    <img className={styles.biopic} src={biopic} alt="bio photo of me" />
+                </div>
+            </div>
         </div>
     </div>
     )

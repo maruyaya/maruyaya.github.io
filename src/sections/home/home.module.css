@@ -58,18 +58,39 @@
 
 .hometext {
     padding-top: 60px;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-left: 7%;
+    padding-right: 7%;
     font-family: 'Times New Roman';
     color: #424242;
 }
 
 
 .bio {
-    font-size: 20px;
-    text-align: center;
+    font-size: clamp(5px, 2vw, 20px);
+    text-align: left;
+}
+
+.biobody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+}
+
+.biopicContainer {
+    margin: 0;
+    padding: 0;
+}
+.biopic {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
 }
 
 .title2 {
     text-align: center;
 }
+

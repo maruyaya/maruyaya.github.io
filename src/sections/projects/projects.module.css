@@ -30,7 +30,7 @@
 }
 
 .imageContainer {
-    width: 400px;
+    width: clamp(250px, 3vw, 500px);
     height: auto;
 }
 
@@ -47,14 +47,14 @@
     text-decoration: none;
     font-family: "Caveat";
     color: #42515B;
-    font-size: clamp(5px, 2vw, 40px);
+    font-size: clamp(30px, 2vw, 50px);
     font-weight: bold;
     text-align: center;
 }
 
 .description {
     color: #536672;
-    font-size: 20px;
+    font-size: clamp(10px, 2vw, 50px);
 }
 
 .left, .right {

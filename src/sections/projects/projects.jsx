@@ -4,6 +4,14 @@ export default function Projects() {
 
     const projects = [
         {
+            name: "Nomalyze",
+            alt: "Nomalyze website homepage image",
+            link: "https://nomalyze.onrender.com/",
+            image: "/project_images/Nomalyze.png",
+            description: `Nomalyze is a nutrition planning app focused on making it easy and simple for beginners. Our application uses a Vite React stack and onRender for deployment.
+            It was nominated for People's Choice out of the projects from our class. Nomalyze allows you to`
+        },
+        {
             name: "Find Your Matcha",
             alt: "Find Your Matcha website homepage image",
             link: "https://github.com/justinnebaltazar/find-your-matcha",

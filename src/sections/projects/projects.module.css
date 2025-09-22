@@ -8,18 +8,22 @@
 .projectcontainerwrapper {
     display: flex;
     flex-direction: column;
-    padding-left: 7%;
-    padding-right: 7%;
     margin: 0;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .projectcontainer {
     display: flex;
     flex-direction: column;
     margin: 0;
-    gap: 60px;
+    gap: 50px;
 }
 
+.linkContainer {
+    width: 35vw;
+    display: inline-block
+}
 
 .project {
     display: flex;
@@ -27,15 +31,10 @@
     justify-content: space-between;
     border-radius: 10px;
     width: 100%;
-}
-
-.imageContainer {
-    width: clamp(250px, 3vw, 500px);
-    height: auto;
+    gap: 20px;
 }
 
 .projectImage {
-    object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 10px;

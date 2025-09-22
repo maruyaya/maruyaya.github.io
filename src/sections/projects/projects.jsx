@@ -57,13 +57,11 @@ export default function Projects() {
                         <div key={index} className={styles.project}>
                             <div className={styles.left}>
                                 <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectName}>{project.name}</a>
-                                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                    <div className={styles.imageContainer}> 
-                                        <img 
-                                        src = {project.image} 
-                                        alt={project.alt} 
-                                        className={styles.projectImage}/>
-                                    </div>
+                                <a className={styles.linkContainer} href={project.link} target="_blank" rel="noopener noreferrer"> 
+                                    <img 
+                                    src = {project.image} 
+                                    alt={project.alt} 
+                                    className={styles.projectImage}/>
                                 </a>
                             </div>
                             <div className={styles.right}>

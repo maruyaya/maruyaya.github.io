@@ -8,8 +8,8 @@ export default function Projects() {
             alt: "Nomalyze website homepage image",
             link: "https://nomalyze.onrender.com/",
             image: "/project_images/Nomalyze.png",
-            description: `Nomalyze is a nutrition planning app focused on making it easy and simple for beginners. Our application uses a Vite React stack and onRender for deployment.
-            It was nominated for People's Choice out of the projects from our class. Nomalyze allows you to`
+            description: `Nomalyze is a nutrition planning app focused on making it easy and simple for beginners allowing users to easily create their own meal plans
+            and gain valuable insights on reaching their goals.`
         },
         {
             name: "Find Your Matcha",
@@ -18,21 +18,20 @@ export default function Projects() {
             image: "/project_images/findyourmatcha.png",
             description: `Created a Matcha reviewing platform for UBC's CMD-F hackathon.
             My team and I used React and I was in charge of
-            the UI/UX design. While google and yelp offers cafe suggestions, they rarely help users find quality matcha.
-            Our goal was to create a website that helps to build a community for matcha lovers 
+            the UI/UX design. Our goal was to create a website that helps to build a community for matcha lovers 
             where they can review and share their thoughts on the different matcha offerings across the city.`
         },
 
-        {
-            name: "Webscraping Tutorial Article",
-            alt: "Webscraping Tutorial Article image",
-            link: "/project_links/WebscrapingTutorial.pdf",
-            image: "/project_images/webscrapetutorial.png",
-            description: `For my STAT 260 final project, we had to make a 
-                            webscraping tutorial for people with minimal technical knowledge.
-                            I used R markdown to make it easier to integrate code directly within explanatory text, making
-                            the content both accessible and easy to follow.`
-        },
+        // {
+        //     name: "Webscraping Tutorial Article",
+        //     alt: "Webscraping Tutorial Article image",
+        //     link: "/project_links/WebscrapingTutorial.pdf",
+        //     image: "/project_images/webscrapetutorial.png",
+        //     description: `For my STAT 260 final project, we had to make a 
+        //                     webscraping tutorial for people with minimal technical knowledge.
+        //                     I used R markdown to make it easier to integrate code directly within explanatory text, making
+        //                     the content both accessible and easy to follow.`
+        // },
 
         {
             name: "DSSS x SFU AIESEC's Business Hackathon",

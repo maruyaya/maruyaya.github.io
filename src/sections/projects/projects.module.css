@@ -21,8 +21,9 @@
 }
 
 .linkContainer {
-    width: 35vw;
-    display: inline-block
+    width: 30vw;
+    height: 35vh;
+    display: flex;
 }
 
 .project {
@@ -53,7 +54,7 @@
 
 .description {
     color: #536672;
-    font-size: clamp(10px, 2vw, 50px);
+    font-size: clamp(10px, 1.5vw, 40px);
 }
 
 .left, .right {

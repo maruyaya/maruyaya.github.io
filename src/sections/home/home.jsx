@@ -53,9 +53,7 @@ export default function Home() {
                     next big trip! 
                     <br/><br/>
                     I love to learn and believe growth doesn't stop 
-                    after school. While I have many side hobbies like journalling and
-                    making keychains, my main focus right now is to learn Chinese and to try
-                    to build a stronger understanding of investing and expanding my financial literacy. 
+                    after school. One of my favourite hobbies is journalling. I love to collect pieces of memories throughout my life and creating spreads that I can look back on. 
                     My portfolio is a way to showcase my personality along with my academic and personal projects.
                     Feel free to explore some of my projects! 
                 </p>
